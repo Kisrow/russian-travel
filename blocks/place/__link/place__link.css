@@ -1,0 +1,18 @@
+.place__link {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    word-break: break-all;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        font-size: 16px;
+    }
+}
