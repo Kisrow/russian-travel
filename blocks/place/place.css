@@ -1,7 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2,minmax(calc(460/984*100%),1fr));
-  gap: 48px 28px;
+  grid-template-columns: repeat(2,minmax(calc(484/984*100%),1fr));
+  gap: 48px 16px;
   padding-bottom: 80px;
 }
 
@@ -12,13 +12,12 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: repeat(2,minmax(calc(440/928*100%),1fr));
-    column-gap: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    padding-bottom: 80px;
+    padding-bottom: 73px;
     grid-template-columns: repeat(2,minmax(calc(352/720*100%),1fr));
     column-gap: calc(16/720*100%);
   }

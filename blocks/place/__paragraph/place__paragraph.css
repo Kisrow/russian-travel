@@ -7,7 +7,7 @@
   line-height: calc(29.34/18);
 }
 .place__paragraph:last-of-type {
-  margin: 0 16px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,5 +20,8 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     margin: 0 16px 25px;
+  }
+  .place__paragraph:last-of-type {
+    margin: 0 16px;
   }
 }
