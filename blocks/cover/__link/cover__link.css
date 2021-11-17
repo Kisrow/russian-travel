@@ -12,7 +12,7 @@
   flex-direction: column;
 }
 
-.cover__link:hover:before {
+.cover__link:hover:after {
   content: '';
   background-color: #2A2C2F;
   width: 100%;
