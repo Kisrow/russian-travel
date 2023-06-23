@@ -13,14 +13,7 @@
 }
 
 .cover__link:hover:after {
-  content: '';
-  background-color: #2A2C2F;
-  width: 100%;
-  min-height: 100%;
   opacity: 0.8;
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 
 .cover__link:after {
